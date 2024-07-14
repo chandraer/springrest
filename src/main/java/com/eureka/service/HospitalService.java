@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 import com.eureka.entity.HospitalEntity;
 import com.eureka.model.HospitalModel;
 import com.eureka.repository.HospitalRepository;
-@Ser
+@Service
 public class HospitalService implements HospitalServiceIn {
 	@Autowired
 	HospitalRepository repository;
